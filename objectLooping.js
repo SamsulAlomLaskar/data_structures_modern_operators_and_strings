@@ -54,7 +54,7 @@ const days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 
 //? Property Names
 const properties = Object.keys(openingHours);
-console.log(properties);
+console.log(properties, "Properties");
 
 let openMsg = `We are open on ${properties.length} days: `;
 
@@ -65,7 +65,7 @@ for (const day of properties) {
 
 //? Property Values
 const val = Object.values(openingHours);
-console.log(val);
+console.log(val, "Values");
 
 // Entire Object
 
